@@ -1,0 +1,21 @@
+Server:
+  HTTP:
+    Host: "0.0.0.0"
+    Port: 8002
+Service:
+  Dao:
+    Mysql:
+      Address: "127.0.0.1"
+      Port: 3306
+      Account: "AKA"
+      Password: "libong"
+      Database: "for_share"
+    Redis:
+      Address: "127.0.0.1"
+      Port: 6379
+      Password: "tQF08UDhtu6g5VjghhYmag=="
+      Database: 0
+  RBACService:
+    Host: "0.0.0.0"
+    Port: 9000
+TokenExpireAt: 432000
